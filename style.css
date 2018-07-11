@@ -1,0 +1,17 @@
+a.bouton {
+    padding: 10px 30px; 
+    background: blue; 
+    color: black; 
+    float: left;
+    margin: 2px;
+    }
+.bouton:hover {
+    background: red; 
+    float:left;
+    margin:2px;
+    }
+
+.image {
+    width: 100%;
+    max height : 200px;
+}
