@@ -17,7 +17,7 @@ a.bouton {
 }
 
 nav li{
-    list-style-type: none;
+    list-style-type: ;
 }
 
 .submenu{
@@ -52,3 +52,21 @@ nav > ul > li > a{
     padding: 10px 30px;
 }
 
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 2px;
+    z-index: 100000;
+}
+
+.submenu li{
+    border-bottom: 1px solid blue
+
+}
+
+.submenu li a{
+    padding: 10px 30px;
+    color: red
+}
