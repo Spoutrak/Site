@@ -16,31 +16,3 @@ a.bouton {
     max height : 200px;
 }
 
-#menu-vertical, #menu-vertical ul {
-    padding:10px 30px;
-    margin:2px;
-    list-style:none;
-    background: blue;
-    color: black;
-  }
-  
-#menu-vertical li {
-    position: relative;
-    background:#EFEFEF; /* juste pour cacher le texte de la page en-dessous */
-  }
-
-  #menu-vertical a {
-    display:block;
-    text-decoration: none;
-    color: #000;
-  }
-
-  #menu-vertical ul {
-    position: absolute;
-    left:-999em;
-  }
-
-  #menu-vertical li:hover ul {
-    top: 0;
-    left: 180px;
-  }
