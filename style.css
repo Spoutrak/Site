@@ -1,4 +1,5 @@
 a.bouton {
+    text-decoration: none;
     padding: 10px 30px; 
     background: blue; 
     color: black; 
@@ -15,3 +16,51 @@ a.bouton {
     width: 100%;
     max height : 200px;
 }
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: left;
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color:#000;
+    padding: 10px 30px;
+    margin: 2px; 
+    background: blue; 
+    color: black; 
+}
+
+#menu-deroulant li ul li a {
+    margin: 0;
+}
+
+#menu-deroulant li ul li a:hover {
+    background: red; 
+    float:left;
+    }
+
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}   
