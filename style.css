@@ -17,6 +17,11 @@ a.bouton {
     max height : 200px;
 }
 
+.Spoutrak {
+    width: 70%;
+    max-height: 150px
+}
+
 .image_snapcode {
     width: 400px;
     max-height: 400px;
