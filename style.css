@@ -70,3 +70,8 @@ a.bouton {
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
 }   
+
+p {
+    font-family: "Arial", Times, serif;
+    color: blue;
+}
